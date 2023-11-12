@@ -1,0 +1,1 @@
+export const pdfResumeUrl = "../assets/JayveeAnnSoriano-Resume.pdf";
