@@ -1,16 +1,21 @@
-import React from 'react'
-import { Footer } from 'flowbite-react';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import React from "react";
+import { Footer } from "flowbite-react";
+import {
+  BsDribbble,
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsTwitter,
+} from "react-icons/bs";
 
 const PageFooter = () => {
   return (
-    <Footer container>
-      <div className='w-full justify-between'>
-          <Footer.Divider/>
-          <Footer.Copyright href="#" by="Jayvee Ann Soriano" year={2023} />
+    <Footer container className="sticky top-[100vh] bg-secondary">
+      <div className="w-full items-center">
+        <Footer.Copyright by="Jayvee Ann Soriano" year={2023} />
       </div>
     </Footer>
-  )
-}
+  );
+};
 
-export default PageFooter
+export default PageFooter;

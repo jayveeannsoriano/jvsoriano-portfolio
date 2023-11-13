@@ -1,15 +1,13 @@
-import './App.css';
-import Header from './layout/Header';
-import Body from './layout/Body';
-import PageFooter from './layout/Footer';
+import Header from "./layout/Header";
+import Body from "./layout/Body";
+import PageFooter from "./layout/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-primary min-h-screen">
       <Header />
       <Body />
       <PageFooter />
-
     </div>
   );
 }
