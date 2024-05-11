@@ -15,6 +15,8 @@ const Hero = () => {
         <h1 className="text-2xl sm:text-5xl font-semibold py-5">Jayvee Ann Soriano</h1>
         <h2 className="">{">"} Front-end Developer</h2>
         <h2 className="">{">"} Flutter Developer</h2>
+        <h2 className="">{">"} UI/UX Designer</h2>
+        <h2 className="">{">"} Application Support Engineer</h2>
         <br />
         <p>
           const githubLink = "

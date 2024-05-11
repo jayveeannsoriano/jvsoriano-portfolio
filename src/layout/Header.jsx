@@ -14,7 +14,7 @@ const Header = () => {
           <Navbar.Link href="#hello" active>
             _hello
           </Navbar.Link>
-          <Navbar.Link href="#about">_about-me</Navbar.Link>
+          <Navbar.Link href="#about">_about</Navbar.Link>
           <Navbar.Link href="#projects">_projects</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
