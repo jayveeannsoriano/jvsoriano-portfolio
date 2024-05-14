@@ -3,7 +3,7 @@ import { Navbar } from "flowbite-react";
 
 const Header = () => {
   return (
-      <Navbar className= "bg-transparent mx-36 py-6">
+      <Navbar className= "bg-transparent p-6 md:px-16">
         <Navbar.Brand>
           <span className="whitespace-nowrap font-semibold text-white">
             jayvee-soriano
