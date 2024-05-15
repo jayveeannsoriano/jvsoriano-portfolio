@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
@@ -12,6 +13,10 @@ module.exports = {
     colors: {
       primary: "#011627",
       secondary: "#011221",
+      cyan: colors.cyan,
+      sky: colors.sky,
+      blue: colors.blue,
+      slate: colors.slate,
     },
   },
   plugins: [require("flowbite/plugin")],

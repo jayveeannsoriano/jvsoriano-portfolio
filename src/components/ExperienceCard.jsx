@@ -14,7 +14,7 @@ export const ExperienceCard = ({
 
       <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
         <h5 className="font-bold md:text-2xl">{profession}</h5>
-        <ul className="flex list-disc flex-col gap-2 md:gap-1 leading-relaxed text-white">
+        <ul className="flex list-disc flex-col gap-2 text-sm md:gap-1 leading-relaxed text-white">
           {description.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

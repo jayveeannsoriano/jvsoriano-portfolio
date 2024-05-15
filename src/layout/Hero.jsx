@@ -3,8 +3,8 @@ import HeroImg from "../assets/hero-img.png";
 import SectionContainer from "../components/SectionContainer";
 import { Button } from "flowbite-react";
 import { pdfCVFilename, pdfCVUrl } from "../constants";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import { githubLink } from "../constants";
+import { BiDownload } from 'react-icons/bi';
 
 const Hero = () => {
   return (
@@ -20,14 +20,14 @@ const Hero = () => {
         <br />
         <p>
           const githubLink = "
-          <a href={githubLink}> https://github.com/jayveeannsoriano</a> ";
+          <a href={githubLink}>https://github.com/jayveeannsoriano</a>";
         </p>
         <br />
         <div className="flex justify-center md:justify-start">
           <a download={pdfCVFilename} href={pdfCVUrl}>
             <Button color="dark" pill>
               Download CV
-              <AiOutlineArrowDown className="ml-2"></AiOutlineArrowDown>
+              <BiDownload className="ml-2" ></BiDownload>
             </Button>
           </a>
         </div>
