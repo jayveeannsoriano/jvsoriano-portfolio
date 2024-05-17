@@ -21,7 +21,7 @@ const ProjectCard = ({
         <img src={previewImage} alt="" className="rounded-lg" />
       </div>
       <div className="flex flex-col gap-6 md:w-1/2 md:gap-6">
-        <h1 className="font-bold md:text-3xl">{name}</h1>
+        <h1 className="font-bold text-center md:text-3xl md:text-left">{name}</h1>
         <p className="text-wrap text-sm font-light md:text-base">{description}</p>
         <div className="flex flex-wrap gap-2">
           <TechPill technologies={technologies} />

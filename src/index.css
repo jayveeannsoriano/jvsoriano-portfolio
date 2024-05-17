@@ -6,9 +6,10 @@
 
 /* customize the defaults in tailwind*/
 @layer base {
-  html {
+  html, body {
     font-family: "Fira Code", system-ui, sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   h1,
