@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b14cf36.css",
-    "main.js": "/static/js/main.e5acbcfa.js",
-    "static/js/787.8ffafabc.chunk.js": "/static/js/787.8ffafabc.chunk.js",
-    "static/media/profile.jpg": "/static/media/profile.39164cb8280d72092e97.jpg",
-    "static/media/FigmaProject.png": "/static/media/FigmaProject.692bb05880342b3dca33.png",
-    "static/media/FFUFProjects.png": "/static/media/FFUFProjects.f0adb15bf654ac2de613.png",
-    "static/media/hero-img.png": "/static/media/hero-img.d6746140dfd557b39701.png",
-    "static/media/WebPortfolio.png": "/static/media/WebPortfolio.2dad6136f802307d0bca.png",
-    "static/media/RimorinProject.png": "/static/media/RimorinProject.d268251443822b0702ea.png",
-    "static/media/JAYVEE_ANN U. SORIANO_CV.pdf": "/static/media/JAYVEE_ANN U. SORIANO_CV.70fb698cd79e153239a9.pdf",
-    "static/media/wipro-logo.png": "/static/media/wipro-logo.ce99e357488e7104586e.png",
-    "index.html": "/index.html",
-    "main.6b14cf36.css.map": "/static/css/main.6b14cf36.css.map",
-    "main.e5acbcfa.js.map": "/static/js/main.e5acbcfa.js.map",
-    "787.8ffafabc.chunk.js.map": "/static/js/787.8ffafabc.chunk.js.map"
+    "main.css": "/jvsoriano-portfolio/static/css/main.6b14cf36.css",
+    "main.js": "/jvsoriano-portfolio/static/js/main.47182847.js",
+    "static/js/787.8ffafabc.chunk.js": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js",
+    "static/media/profile.jpg": "/jvsoriano-portfolio/static/media/profile.39164cb8280d72092e97.jpg",
+    "static/media/FigmaProject.png": "/jvsoriano-portfolio/static/media/FigmaProject.692bb05880342b3dca33.png",
+    "static/media/FFUFProjects.png": "/jvsoriano-portfolio/static/media/FFUFProjects.f0adb15bf654ac2de613.png",
+    "static/media/hero-img.png": "/jvsoriano-portfolio/static/media/hero-img.d6746140dfd557b39701.png",
+    "static/media/WebPortfolio.png": "/jvsoriano-portfolio/static/media/WebPortfolio.2dad6136f802307d0bca.png",
+    "static/media/RimorinProject.png": "/jvsoriano-portfolio/static/media/RimorinProject.d268251443822b0702ea.png",
+    "static/media/JAYVEE_ANN U. SORIANO_CV.pdf": "/jvsoriano-portfolio/static/media/JAYVEE_ANN U. SORIANO_CV.70fb698cd79e153239a9.pdf",
+    "static/media/wipro-logo.png": "/jvsoriano-portfolio/static/media/wipro-logo.ce99e357488e7104586e.png",
+    "index.html": "/jvsoriano-portfolio/index.html",
+    "main.6b14cf36.css.map": "/jvsoriano-portfolio/static/css/main.6b14cf36.css.map",
+    "main.47182847.js.map": "/jvsoriano-portfolio/static/js/main.47182847.js.map",
+    "787.8ffafabc.chunk.js.map": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b14cf36.css",
-    "static/js/main.e5acbcfa.js"
+    "static/js/main.47182847.js"
   ]
 }
