@@ -9,7 +9,7 @@ export const ExperienceCard = ({
   url,
 }) => {
   return (
-    <div className="bg-secondary rounded-xl shadow-xl mx-auto flex flex-col justify-between gap-6 p-12 md:flex-row">
+    <div data-aos="fade-right" className="rounded-xl shadow-xl border border-white/50 mx-auto flex flex-col justify-between gap-6 p-12 md:flex-row">
       <div className="max-md:order-1 md:w-1/4 md:grid place-items-center">
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img src={logo} alt="wipro-logo" className="w-[90px] md:w-[140px]" />

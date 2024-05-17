@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Navbar
       fluid
-      className="bg-slate-800 fixed top-0 left-0 right-0 p-6 md:px-16"
+      className="bg-slate-800 fixed top-0 left-0 right-0 z-50 p-6 md:px-16"
     >
       <Navbar.Brand>
         <span className="whitespace-nowrap font-semibold text-white">
@@ -23,7 +23,7 @@ const Header = () => {
         <Navbar.Link
           href="#hello"
           className={`${activeLink === "#hello" ? "bg-secondary" : null
-            } text-white md:hover:text-sky-600`}
+            } text-white md:hover:text-sky-600 hover:bg-secondary`}
           onClick={() => handleLinkClick("#hello")}
         >
           _hello
@@ -43,6 +43,14 @@ const Header = () => {
           onClick={() => handleLinkClick("#projects")}
         >
           _projects
+        </Navbar.Link>
+        <Navbar.Link
+          href="#contact"
+          className={`${activeLink === "#contact" ? "bg-secondary" : null
+            } text-white hover:bg-secondary md:hover:text-sky-600`}
+          onClick={() => handleLinkClick("#contact")}
+        >
+          _contact
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

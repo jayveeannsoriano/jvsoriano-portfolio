@@ -5,7 +5,7 @@ import { EXPERIENCE } from "../lib/experience";
 
 const Experiences = () => {
   return (
-    <SectionContainer sectionName={"_experiences"}>
+    <SectionContainer sectionName={"_experiences"} bgColor="bg-secondary">
       {EXPERIENCE.map((experience, index) => (
         <ExperienceCard
           key={index}

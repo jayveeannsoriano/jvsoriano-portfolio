@@ -9,6 +9,7 @@ function App() {
     AOS.init({
       duration: 1000,
       easing: "ease-in-out",
+      delay: 300,
       once: true,
       mirror: false,
     });

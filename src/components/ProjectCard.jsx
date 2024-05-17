@@ -12,6 +12,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
+      data-aos="fade-up"
       className={`mx-auto flex flex-col gap-4 md:flex-row md:gap-12 md:my-8 ${
         isReversed ? "md:flex-row-reverse" : ""
       }`}

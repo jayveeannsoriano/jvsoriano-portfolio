@@ -15,7 +15,6 @@ const Hero = () => {
         <div
           data-aos="fade-up"
           className="mx-auto text-center sm:text-left"
-          id="hero-text"
         >
           <p>Hello, World. I am</p>
           <h1 className="text-2xl md:text-5xl font-semibold py-5">
@@ -47,7 +46,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mx-auto" id="hero-img">
+        <div data-aos="fade-up" className="mx-auto" id="hero-img">
           <img
             src={HeroImg}
             className="w-[350px] md:w-[450px] lg:w-[510px] my-10"
