@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jvsoriano-portfolio/static/css/main.6b14cf36.css",
-    "main.js": "/jvsoriano-portfolio/static/js/main.47182847.js",
+    "main.css": "/jvsoriano-portfolio/static/css/main.efb54afb.css",
+    "main.js": "/jvsoriano-portfolio/static/js/main.552d81b7.js",
     "static/js/787.8ffafabc.chunk.js": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js",
     "static/media/profile.jpg": "/jvsoriano-portfolio/static/media/profile.39164cb8280d72092e97.jpg",
     "static/media/FigmaProject.png": "/jvsoriano-portfolio/static/media/FigmaProject.692bb05880342b3dca33.png",
@@ -12,12 +12,12 @@
     "static/media/JAYVEE_ANN U. SORIANO_CV.pdf": "/jvsoriano-portfolio/static/media/JAYVEE_ANN U. SORIANO_CV.70fb698cd79e153239a9.pdf",
     "static/media/wipro-logo.png": "/jvsoriano-portfolio/static/media/wipro-logo.ce99e357488e7104586e.png",
     "index.html": "/jvsoriano-portfolio/index.html",
-    "main.6b14cf36.css.map": "/jvsoriano-portfolio/static/css/main.6b14cf36.css.map",
-    "main.47182847.js.map": "/jvsoriano-portfolio/static/js/main.47182847.js.map",
+    "main.efb54afb.css.map": "/jvsoriano-portfolio/static/css/main.efb54afb.css.map",
+    "main.552d81b7.js.map": "/jvsoriano-portfolio/static/js/main.552d81b7.js.map",
     "787.8ffafabc.chunk.js.map": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b14cf36.css",
-    "static/js/main.47182847.js"
+    "static/css/main.efb54afb.css",
+    "static/js/main.552d81b7.js"
   ]
 }
