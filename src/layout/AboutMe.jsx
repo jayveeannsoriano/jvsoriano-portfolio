@@ -3,7 +3,6 @@ import SectionContainer from "../components/SectionContainer";
 import profileImg from "../assets/profile-img.jpg";
 import { Card } from "flowbite-react";
 
-
 const AboutMe = () => {
   return (
     <SectionContainer id="about" sectionName={'_about'}>
@@ -22,7 +21,6 @@ const AboutMe = () => {
           </p>
         </Card>
       </div>
-
     </SectionContainer>
   );
 };
