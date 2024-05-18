@@ -56,4 +56,4 @@ The design of this portfolio was inspired by the **Illustration Based Portfolio 
  by **Jhanvi Shah**.  I made some tweaks to the original design to better fit my personal style and needs. Special thanks to the original designer for their creativity and inspiration.
  
 - [Jhanvi Shah | LinkedIn Profile](https://www.linkedin.com/in/jhanvishah215/)
-- [Figma file]((https://www.figma.com/community/file/1318529372146880502/illustration-based-portfolio-website-template?searchSessionId=lwbgekqh-vbmqmidyhi8))
+- [Figma file](https://www.figma.com/community/file/1318529372146880502/illustration-based-portfolio-website-template?searchSessionId=lwbgekqh-vbmqmidyhi8)
