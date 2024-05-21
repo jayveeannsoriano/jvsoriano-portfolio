@@ -16,7 +16,7 @@ import figmaProjects from "../assets/project preview images/FigmaProject.png"
 
 export const PROJECTS = [
     {
-        name: 'Rimorin Patient Record Management System',
+        name: 'Rimorin Patient Records Management & Appointment System',
         description: 'Led the design and front-end development for a web-based thesis project focused on digitizing healthcare processes. Our solution streamlined patient record management, appointment scheduling, and payment tracking, aligning with the Philippine eHealth Systems and Services Act and addressing the demands of modern healthcare.',
         // url: 'https://github.com/jayveeannsoriano',
         previewImage: rimorinProject,

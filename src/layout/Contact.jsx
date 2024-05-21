@@ -5,8 +5,9 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { IoLogoBitbucket } from "react-icons/io";
-import { LinkPill } from "../components/LinkPill";
-import { bitbukcetProfile, facebookProfile, githubLink, linkedInProfile } from "../constants";
+import { Button, Flowbite } from "flowbite-react";
+import { bitbucketProfile, facebookProfile, githubLink, linkedInProfile } from "../constants";
+import { customButtonTheme } from "../themes/ButtonTheme";
 
 const Contact = () => {
     return (
@@ -18,9 +19,11 @@ const Contact = () => {
                     hesitate to get in touch.
                 </h2>
                 <br />
-                <div className="flex flex-row gap-3 items-center justify-center">
-                    <MdEmail className="text-white text-center h-5 w-5 md:h-10 md:w-10" />
-                    <p className="font-bold text-xl underline decoration-sky-500 md:text-4xl">sjayveeann@gmail.com</p>
+                <div className="flex flex-row gap-3 items-center justify-center text-white">
+                    <MdEmail className="text-center h-5 w-5 md:h-10 md:w-10" />
+                    <a href="mailto:sjayveeann@gmail.com" className="font-bold text-2xl underline decoration-sky-500 md:text-4xl">
+                        sjayveeann@gmail.com
+                    </a>
                 </div>
             </div>
             <div data-aos="fade-up" className="flex flex-col gap-3">
@@ -28,10 +31,24 @@ const Contact = () => {
                     You may also find me on these platforms:
                 </h2>
                 <div className="flex flex-col justify-center gap-3 md:flex-row">
-                    <LinkPill logo={AiFillLinkedin} link={linkedInProfile} label={"LinkedIn"} />
-                    <LinkPill logo={FaFacebookSquare} link={facebookProfile} label={"Facebook"} />
-                    <LinkPill logo={FaSquareGithub} link={githubLink} label={"GitHub"} />
-                    <LinkPill logo={IoLogoBitbucket} link={bitbukcetProfile} label={"Bitbucket"} />
+                    <Flowbite theme={{theme: customButtonTheme}}>
+                        <Button pill color="primary" href={linkedInProfile} target="_blank">
+                            <AiFillLinkedin className="mr-2 h-5 w-5" />
+                            LinkedIn
+                        </Button>
+                        <Button pill color="primary" href={facebookProfile} target="_blank">
+                            <FaFacebookSquare className="mr-2 h-5 w-5" />
+                            Facebook
+                        </Button>
+                        <Button pill color="primary" href={githubLink} target="_blank">
+                            <FaSquareGithub className="mr-2 h-5 w-5" />
+                            GitHub
+                        </Button>
+                        <Button pill color="primary" href={bitbucketProfile} target="_blank">
+                            <IoLogoBitbucket className="mr-2 h-5 w-5" />
+                            Bitbucket
+                        </Button>
+                    </Flowbite>
                 </div>
             </div>
         </SectionContainer>

@@ -11,19 +11,20 @@ import "aos/dist/aos.css";
 const Hero = () => {
   return (
     <SectionContainer id="hello">
-      <div className="flex flex-col items-center mt-6 md:flex-row md:mt-8">
-        <div
-          data-aos="fade-up"
-          className="mx-auto text-center sm:text-left"
-        >
-          <p>Hello, World. I am</p>
-          <h1 className="text-2xl md:text-5xl font-semibold py-5">
-            Jayvee Ann Soriano
-          </h1>
-          <h2 className="">{">"} Front-end Developer</h2>
-          <h2 className="">{">"} Flutter Developer</h2>
-          <h2 className="">{">"} UI/UX Designer</h2>
-          <h2 className="">{">"} Application Support Engineer</h2>
+      <div className="flex flex-col items-center mt-16 md:flex-row md:mt-8">
+        <div data-aos="fade-up" className="mx-auto text-center">
+          <div className="grid justify-around md:justify-start md:text-left">
+            <p>Hello, World. I am</p>
+            <h1 className="text-3xl md:text-5xl font-semibold py-5">
+              Jayvee Ann Soriano
+            </h1>
+            <div className="text-left">
+              <h2>{">"} Front-end Developer</h2>
+              <h2>{">"} Flutter Developer</h2>
+              <h2>{">"} UI/UX Designer</h2>
+              <h2>{">"} Application Support Engineer</h2>
+            </div>
+          </div>
           <br />
           <p>
             const githubLink = "
@@ -32,9 +33,11 @@ const Hero = () => {
               target="_blank"
               rel="noopener
               noreferrer"
+              className="underline hover:text-sky-500"
             >
               https://github.com/jayveeannsoriano"
-            </a>;
+            </a>
+            ;
           </p>
           <br />
           <div className="flex justify-center md:justify-start">
@@ -49,7 +52,7 @@ const Hero = () => {
         <div data-aos="fade-up" className="mx-auto" id="hero-img">
           <img
             src={HeroImg}
-            className="w-[350px] md:w-[450px] lg:w-[510px] my-10"
+            className="w-[310px] md:w-[450px] lg:w-[510px] my-10"
             alt="hero-img"
           />
         </div>
