@@ -12,16 +12,16 @@ const Hero = () => {
   return (
     <SectionContainer id="hello">
       <div data-aos="fade-up" className="flex flex-col gap-1 items-center mt-16 md:flex-row md:my-24">
-        <div className="mx-auto text-center flex flex-col gap-1 md:text-left md:w-1/2">
+        <div className="text-center flex flex-col gap-1 md:text-left md:w-1/2">
           <h1>Hello World, I am </h1>
-          <h1 className="text-2xl font-semibold my-3 md:text-5xl">Jayvee Ann Soriano</h1>
-          <div className="grid justify-around text-left text-sm md:justify-start md:text-lg">
+          <h1 className="text-3xl font-semibold my-3 md:text-5xl">Jayvee Ann Soriano</h1>
+          <div className="grid justify-around text-left text-md md:justify-start md:text-lg">
             <h2>{">"} Front-end Developer</h2>
             <h2>{">"} Flutter Developer</h2>
             <h2>{">"} UI/UX Designer</h2>
             <h2>{">"} Application Support Engineer</h2>
           </div>
-          <div className="text-sm my-3 md:text-md">
+          <div className="text-md my-3 md:text-md">
             <p>
               const githubLink = "
               <a
@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="m-auto" id="hero-img">
           <img
             src={HeroImg}
-            className="w-[260px] md:w-[450px] lg:w-[510px] my-1"
+            className="w-[310px] md:w-[450px] lg:w-[510px] my-1"
             alt="hero-img"
           />
         </div>
