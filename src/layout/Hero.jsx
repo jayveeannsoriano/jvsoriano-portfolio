@@ -11,36 +11,32 @@ import "aos/dist/aos.css";
 const Hero = () => {
   return (
     <SectionContainer id="hello">
-      <div className="flex flex-col items-center mt-16 md:flex-row md:mt-8">
-        <div data-aos="fade-up" className="mx-auto text-center">
-          <div className="grid justify-around md:justify-start md:text-left">
-            <p>Hello, World. I am</p>
-            <h1 className="text-3xl md:text-5xl font-semibold py-5">
-              Jayvee Ann Soriano
-            </h1>
-            <div className="text-left">
-              <h2>{">"} Front-end Developer</h2>
-              <h2>{">"} Flutter Developer</h2>
-              <h2>{">"} UI/UX Designer</h2>
-              <h2>{">"} Application Support Engineer</h2>
-            </div>
+      <div data-aos="fade-up" className="flex flex-col gap-1 items-center mt-16 md:flex-row md:my-24">
+        <div className="mx-auto text-center flex flex-col gap-1 md:text-left md:w-1/2">
+          <h1>Hello World, I am </h1>
+          <h1 className="text-2xl font-semibold my-3 md:text-5xl">Jayvee Ann Soriano</h1>
+          <div className="grid justify-around text-left text-sm md:justify-start md:text-lg">
+            <h2>{">"} Front-end Developer</h2>
+            <h2>{">"} Flutter Developer</h2>
+            <h2>{">"} UI/UX Designer</h2>
+            <h2>{">"} Application Support Engineer</h2>
           </div>
-          <br />
-          <p>
-            const githubLink = "
-            <a
-              href={githubLink}
-              target="_blank"
-              rel="noopener
+          <div className="text-sm my-3 md:text-md">
+            <p>
+              const githubLink = "
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noopener
               noreferrer"
-              className="underline hover:text-sky-500"
-            >
-              https://github.com/jayveeannsoriano"
-            </a>
-            ;
-          </p>
-          <br />
-          <div className="flex justify-center md:justify-start">
+                className="underline hover:text-sky-500"
+              >
+                https://github.com/jayveeannsoriano"
+              </a>
+              ;
+            </p>
+          </div>
+          <div className="flex justify-center my-3 md:justify-start">
             <a href={pdfFile} download={pdfCVFilename}>
               <Button className="bg-secondary enabled:hover:bg-sky-900" pill>
                 Download CV
@@ -49,10 +45,10 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" className="mx-auto" id="hero-img">
+        <div className="m-auto" id="hero-img">
           <img
             src={HeroImg}
-            className="w-[310px] md:w-[450px] lg:w-[510px] my-10"
+            className="w-[260px] md:w-[450px] lg:w-[510px] my-1"
             alt="hero-img"
           />
         </div>
