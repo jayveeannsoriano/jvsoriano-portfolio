@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="m-auto" id="hero-img">
           <img
             src={HeroImg}
-            className="w-[310px] md:w-[450px] lg:w-[510px] my-1"
+            className="w-[290px] md:w-[450px] lg:w-[510px] my-1"
             alt="hero-img"
           />
         </div>

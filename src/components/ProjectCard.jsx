@@ -31,9 +31,9 @@ const ProjectCard = ({
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="self-start p-1.5 rounded-lg"
+            className="self-start p-1.5 rounded-lg gap-1 after:content-['_↗'] text-white flex hover:text-sky-500"
           >
-            <FiGithub className="h-6 w-6 text-white hover:text-sky-500 " />
+            <FiGithub className="h-6 w-6 text-white hover:text-sky-500" />
           </a>
         )}
       </div>
