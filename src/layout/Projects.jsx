@@ -17,6 +17,7 @@ const Projects = () => {
           name={project.name}
           description={project.description}
           technologies={project.technologies}
+          githubUrl={project.githubUrl}
           url={project.url}
           isReversed={index % 2 === 1} // Apply reverse layout for alternate projects
         />

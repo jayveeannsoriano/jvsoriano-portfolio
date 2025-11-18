@@ -1,7 +1,6 @@
 import React from "react";
 import SectionContainer from "../components/SectionContainer";
 import profileImg from "../assets/profile.jpg";
-import { FaBirthdayCake } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -11,6 +10,7 @@ const AboutMe = () => {
           <img
             src={profileImg}
             className="rounded-xl w-[480px] shadow-lg"
+            alt="profile-img"
           ></img>
         </div>
         <div className="flex flex-col gap-6 md:w-1/2 md:gap-5 md:self-center">
@@ -18,8 +18,7 @@ const AboutMe = () => {
             const myNicknames = ['Jian', 'Jayvee', 'Jebeann'];
           </h1>
           <p className="text-wrap text-sm font-light md:text-base">
-            I’m an aspiring web and mobile developer as well as a UI/UX
-            designer. Throughout my university journey, I took charge of
+            I’m an aspiring web/mobile front-end developer. Throughout my university journey, I took charge of
             designing, prototyping, and developing various web and mobile
             projects, igniting my passion for the digital world.
           </p>
