@@ -16,7 +16,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className="bg-gradient-to-tr from-[#031020] via-gray-800 to-[#3F526C] min-h-screen">
+    <div className="bg-black min-h-screen">
       <Header />
       <Body />
       <PageFooter />
