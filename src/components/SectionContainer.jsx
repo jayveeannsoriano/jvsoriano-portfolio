@@ -6,7 +6,7 @@ const SectionContainer = ({ children, id, sectionName = null, bgColor = 'transpa
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8">
         {sectionName && (
           <div className="flex justify-center">
-            <h1 className="text-2xl font-bold">{sectionName}</h1>
+            <h1 className="text-2xl font-bold hover:text-sky-400 transition-all ease-in-out">{sectionName}</h1>
           </div>
         )}
         {children}
