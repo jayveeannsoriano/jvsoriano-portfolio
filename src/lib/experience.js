@@ -12,14 +12,14 @@
 
 import wiproLogo from "../assets/wipro-logo.png";
 import ffufLogo from "../assets/ffuf-logo.png";
+import freelanceLogo from "../assets/freelance-logo.png";
 
 export const EXPERIENCE = [
   {
-    logo: wiproLogo,
+    logo: freelanceLogo,
     profession: "Front-end Developer and UI/UX Designer",
     company: "Freelance",
     date: "June 2025 - Present",
-    // url: "https://www.wipro.com/",
     description: [
       "Designing and building a responsive web platform for a legal services client using Next.js and Tailwind CSS, translating complex legal workflows into clean, user-friendly interfaces",
       "Leading end-to-end product development from requirements gathering and wireframing to implementation, ensuring the solution aligns with both business goals and user needs",
@@ -47,7 +47,7 @@ export const EXPERIENCE = [
       "Built 5+ mobile applications during an intensive Flutter bootcamp, gaining hands-on experience in Dart, Redux state management, and async programming",
       "Contributed to a live codebase using Git workflows — feature branching, pull requests, and code reviews — guided by senior developers on clean architecture",
       "Worked in an Agile/Scrum team environment, participating in daily standups and collaborative peer reviews",
-      "Resolved UI and responsiveness issues on the Markilux Web App via Jira, directly improving cross-device user experience",
+      "Resolved UI and responsiveness issues on the Markilux Web App, directly improving cross-device user experience",
     ],
   },
 ];

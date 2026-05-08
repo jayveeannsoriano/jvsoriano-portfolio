@@ -13,7 +13,7 @@ export const ExperienceCard = ({
       <div className="group rounded-xl shadow-xl border border-white/50 mx-auto flex flex-col justify-between gap-6 p-12 transition-all duration-500 ease-in-out hover:border-sky-400/70 hover:shadow-sky-500/20 hover:shadow-2xl md:flex-row">
         <div className="max-md:order-1 md:w-1/4 md:grid place-items-center">
           <a href={url} target="_blank" rel="noopener noreferrer">
-            <img src={logo} alt="wipro-logo" className="w-[90px] md:w-[140px]" />
+            <img src={logo} alt="company_logo" className="w-[90px] md:w-[140px]" />
           </a>
         </div>
         <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
