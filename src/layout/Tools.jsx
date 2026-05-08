@@ -14,7 +14,7 @@ import { FaFigma } from "react-icons/fa6";
 import { SiDart } from "react-icons/si";
 import ToolIconCard from "../components/ToolIconCard";
 
-export const Tools = () => {
+const Tools = () => {
   return (
     <SectionContainer sectionName={'_technologies'}>
       <div className="grid grid-cols-2 px-2 gap-3 justify-items-center md:grid-cols-3 lg:grid-cols-5 lg:gap-12 ">
@@ -32,3 +32,5 @@ export const Tools = () => {
     </SectionContainer>
   );
 };
+
+export default Tools;

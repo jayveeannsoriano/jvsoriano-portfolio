@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "./AboutMe";
 import Hero from "./Hero";
-import { Tools } from "./Tools";
+import Tools from "./Tools";
 import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -9,13 +9,13 @@ import Contact from "./Contact";
 const Body = () => {
   return (
     <div className="mx-auto">
-      < Hero/>
-      < Tools/>
+      < Hero />
+      < Tools />
       < Experiences />
-      < AboutMe/>
+      < AboutMe />
       < Projects />
       < Contact />
-      </div>
+    </div>
   );
 };
 

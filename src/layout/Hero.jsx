@@ -6,10 +6,10 @@ import "aos/dist/aos.css";
 
 const Hero = () => {
   return (
-    <SectionContainer id="hello" className="">
-      <div data-aos="fade-up" className="justify-center text-center mt-16 md:flex-row md:my-24">
+    <SectionContainer id="hello">
+      <div data-aos="fade-up" className="justify-center text-center my-16 md:flex-row md:my-36">
         <h2 className="text-lg md:text-xl text-gray-300 mb-2">Hello World, I'm Jayvee Ann Soriano</h2>
-        <h1 className="text-4xl md:text-7xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent m-10">
+        <h1 className="text-3xl md:text-7xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent m-10">
           Crafting Digital Experiences<br />That Make an Impact
         </h1>
         <div className="flex justify-center mb-3">

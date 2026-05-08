@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button, Navbar } from "flowbite-react";
-import pdfFile from "../assets/JAYVEE_ANN U. SORIANO_CV.pdf";
-import { pdfCVFilename } from "../constants";
-import { BiDownload } from "react-icons/bi";
+import { CgArrowTopRight } from "react-icons/cg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("#hello");
@@ -47,10 +45,10 @@ const Header = () => {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <a href={pdfFile} download={pdfCVFilename}>
-          <Button className="bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 border-0 transition-all duration-300 shadow-lg hover:shadow-sky-500/50" pill>
-            <BiDownload className="mr-2 h-5 w-5" />
-            Download CV
+        <a href={`${process.env.PUBLIC_URL}/Jayvee_Ann_Soriano_Resume.pdf`} target="_blank" rel="noopener noreferrer">
+          <Button className="bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 border-0 transition-all duration-600 ease-in-out hover:shadow-lg hover:shadow-sky-500/40" pill>
+            Resume
+            <CgArrowTopRight className="ml-2 h-3 w-3" />
           </Button>
         </a>
         <Navbar.Toggle className="text-white hover:bg-secondary ml-2" />
