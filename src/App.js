@@ -1,6 +1,8 @@
 import Header from "./layout/Header";
 import Body from "./layout/Body";
 import PageFooter from "./layout/Footer";
+import CursorGlow from "./components/CursorGlow";
+import BackToTop from "./components/BackToTop";
 import AOS from "aos";
 import { useEffect } from "react";
 
@@ -17,9 +19,11 @@ function App() {
   }, []);
   return (
     <div className="bg-black min-h-screen">
+      <CursorGlow />
       <Header />
       <Body />
       <PageFooter />
+      <BackToTop />
     </div>
   );
 }

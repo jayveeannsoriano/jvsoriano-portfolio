@@ -5,7 +5,7 @@ import { EXPERIENCE } from "../lib/experience";
 
 const Experiences = () => {
   return (
-    <SectionContainer sectionName={"_experiences"} bgColor="bg-secondary">
+    <SectionContainer sectionName={"Experience"} id={"experiences"} bgColor="bg-secondary">
       {EXPERIENCE.map((experience, index) => (
         <ExperienceCard
           key={index}
@@ -15,6 +15,7 @@ const Experiences = () => {
           date={experience.date}
           description={experience.description}
           url={experience.url}
+          CompanyLink={experience.company}
         />
       ))}
     </SectionContainer>

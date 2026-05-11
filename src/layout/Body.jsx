@@ -10,9 +10,9 @@ const Body = () => {
   return (
     <div className="mx-auto">
       < Hero />
+      < AboutMe />
       < Tools />
       < Experiences />
-      < AboutMe />
       < Projects />
       < Contact />
     </div>
