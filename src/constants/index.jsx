@@ -5,3 +5,4 @@ export const linkedInProfile = "https://www.linkedin.com/in/jayvee-ann-soriano-1
 export const facebookProfile = "https://www.facebook.com/jvannsoriano/";
 export const bitbucketProfile = "https://bitbucket.org/jayveesoriano/workspace/overview/";
 export const emailAddress = "mailto:sjayveeannsoriano@gmail.com";
+export const resumeLink = "https://flowcv.com/resume/fts5ochu2r";

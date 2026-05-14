@@ -1,4 +1,3 @@
-
 # jv-soriano portfolio
 
 A personal portfolio built using **ReactJS**, styled with **Tailwind CSS** and **Flowbite React** components, and deployed via **GitHub Pages**
@@ -40,7 +39,6 @@ Start the server
   npm run start
 ```
 
-
 ## Deployment
 
 To deploy this project run
@@ -48,12 +46,3 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
-
-
-## Acknowledgements
-
-The design of this portfolio was inspired by the **Illustration Based Portfolio Website Template**
- by **Jhanvi Shah**.  I made some tweaks to the original design to better fit my personal style and needs. Special thanks to the original designer for their creativity and inspiration.
- 
-- [Jhanvi Shah | LinkedIn Profile](https://www.linkedin.com/in/jhanvishah215/)
-- [Figma file](https://www.figma.com/community/file/1318529372146880502/illustration-based-portfolio-website-template?searchSessionId=lwbgekqh-vbmqmidyhi8)

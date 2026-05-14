@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "flowbite-react";
 import { CgArrowTopRight } from "react-icons/cg";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { resumeLink } from "../constants";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -74,7 +75,7 @@ const Header = () => {
         {/* Right — Resume + mobile toggle */}
         <div className="flex items-center gap-3">
           <a
-            href={`${process.env.PUBLIC_URL}/Jayvee_Ann_Soriano_Resume.pdf`}
+            href={resumeLink}
             target="_blank"
             rel="noopener noreferrer"
           >

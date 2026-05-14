@@ -1,19 +1,7 @@
 import React from "react";
 import SectionContainer from "../components/SectionContainer";
-import {
-  BiLogoReact,
-  BiLogoGit,
-  BiLogoJavascript,
-  BiLogoFlutter,
-  BiLogoTailwindCss,
-  BiLogoBootstrap,
-} from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
-import { FaFigma } from "react-icons/fa6";
-import { SiDart, SiSupabase, SiRadixui, SiVercel, SiReacthookform } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
 
-const Chip = ({ icon: Icon, label }) => (
+const Chip = ({ label }) => (
   <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full border border-gray-700 bg-gray-900/40 text-gray-300 text-xs font-mono hover:border-sky-500/50 hover:text-sky-300 transition-colors duration-150 whitespace-nowrap">
     {label}
   </span>
@@ -21,75 +9,66 @@ const Chip = ({ icon: Icon, label }) => (
 
 const TechGroup = ({ title, description, chips }) => (
   <div className="flex flex-col gap-3">
-    <p className="text-lg font-mono text-sky-500 uppercase tracking-widest">{title}</p>
+    <p className="text-lg font-mono text-sky-500 uppercase tracking-widest">
+      {title}
+    </p>
     <div className="flex flex-wrap gap-1.5">
-      {chips.map(({ icon, label }) => (
-        <Chip key={label} icon={icon} label={label} />
+      {chips.map((label) => (
+        <Chip key={label} label={label} />
       ))}
     </div>
-    <p className="text-xs md:text-sm text-gray-400 leading-snug">{description}</p>
+    <p className="text-xs md:text-sm text-gray-400 leading-snug">
+      {description}
+    </p>
   </div>
 );
 
 const TECH_GROUPS = [
   {
     title: "Frontend",
-    description: "My primary stack. Used React and Next.js across client and personal projects to build component-driven UIs with a focus on performance and maintainability.",
-    chips: [
-      { icon: BiLogoReact, label: "React" },
-      { icon: TbBrandNextjs, label: "Next.js" },
-      { icon: BiLogoJavascript, label: "JavaScript" },
-    ],
+    description:
+      "Core stack for production UIs. TypeScript keeps component contracts clear and catches issues early.",
+    chips: ["TypeScript", "Next.js", "JavaScript", "React"],
   },
   {
-    title: "UI & Styling",
-    description: "Tailwind is my default for layout and design systems. Bootstrap for legacy-compatible work. shadcn/ui for accessible, composable components in production.",
-    chips: [
-      { icon: BiLogoTailwindCss, label: "Tailwind CSS" },
-      { icon: BiLogoBootstrap, label: "Bootstrap" },
-      { icon: SiRadixui, label: "shadcn/ui" },
-    ],
+    title: "UI/UX Design & Styling",
+    description:
+      "Tailwind for layout consistency. shadcn/ui for accessible component systems. Bootstrap for a legacy-compatible client project. Figma for design decisions before touching code.",
+    chips: ["Tailwind CSS", "Bootstrap", "shadcn/ui", "Figma"],
   },
   {
     title: "State & Forms",
-    description: "Zustand for lightweight global state. React Hook Form for complex, multi-step forms — keeping renders minimal and validation logic clean.",
-    chips: [
-      { icon: null, label: "Zustand" },
-      { icon: SiReacthookform, label: "React Hook Form" },
-    ],
+    description:
+      "Zustand for cross-component state without the overhead. React Hook Form + Zod for schema-validated, performant multi-step forms.",
+    chips: ["Zod", "Zustand", "React Hook Form"],
   },
   {
     title: "Backend & Data",
-    description: "Used Supabase as the full backend layer in a live client project — handling auth, database, and file storage without managing a separate server.",
-    chips: [
-      { icon: SiSupabase, label: "Supabase" },
-    ],
+    description:
+      "Shipped a full-stack client project on Supabase — auth, relational data, and file storage in one layer.",
+    chips: ["Supabase", "SQL"],
   },
   {
     title: "Mobile",
-    description: "Built 5+ Flutter apps during internship at FFUF Manila Inc., contributing to a live production codebase with real code review and Agile workflows.",
-    chips: [
-      { icon: BiLogoFlutter, label: "Flutter" },
-      { icon: SiDart, label: "Dart" },
-    ],
+    description:
+      "Built cross-platform mobile apps with Flutter and Dart during internship at FFUF Manila Inc. — writing widget trees, managing state, and shipping real features to a production codebase.",
+    chips: ["Flutter", "Dart"],
   },
   {
-    title: "Tooling",
-    description: "Git and GitHub for version control and collaboration. Vercel for zero-config deployments. Figma for wireframes, prototypes, and design handoffs.",
-    chips: [
-      { icon: BiLogoGit, label: "Git" },
-      { icon: VscGithub, label: "GitHub" },
-      { icon: VscGithub, label: "Bitbucket" },
-      { icon: SiVercel, label: "Vercel" },
-      { icon: FaFigma, label: "Figma" },
-    ],
+    title: "Tools & Platforms",
+    description:
+      "Git workflows with branching and PRs across all team projects. Jira for sprint tasks, bugs, and feature tickets. Postman for API testing. Vercel for CI-connected deployments.",
+    chips: ["Git", "GitHub", "Bitbucket", "Vercel", "Jira", "Postman"],
   },
 ];
 
 const Tools = () => {
   return (
     <SectionContainer sectionName={"Skills"} id={"skills"}>
-      <div data-aos="fade-up" className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-3">
+      <div
+        data-aos="fade-up"
+        className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-3"
+      >
         {TECH_GROUPS.map((group) => (
           <TechGroup
             key={group.title}

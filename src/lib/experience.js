@@ -17,12 +17,15 @@ import freelanceLogo from "../assets/freelance-logo.png";
 export const EXPERIENCE = [
   {
     logo: freelanceLogo,
-    profession: "Front-end Developer and UI/UX Designer",
-    company: "Freelance",
+    profession: "Front-end Engineer and UI/UX Designer",
+    company: "Freelance at Ernest Maude",
     date: "June 2025 - Present",
+    url: "https://www.linkedin.com/company/ernest-maude/",
     description: [
-      "Designing and building a responsive web platform for a legal services client using Next.js and Tailwind CSS, translating complex legal workflows into clean, user-friendly interfaces",
-      "Leading end-to-end product development from requirements gathering and wireframing to implementation, ensuring the solution aligns with both business goals and user needs",
+      "Co-engineer and ship a production legal-services platform in Next.js, Supabase, and Tailwind CSS, implementing core user flows including authentication, document management, and transactional email systems, deployed on Vercel",
+      "Simplify a complex multi-step onboarding flow by designing modular interfaces that translated legal and administrative requirements into a guided experience for elderly users and overseas clients",
+      "Implement schema-based validation using Zod to reduce form errors and improve data consistency across onboarding and submission flows",
+      "Apply accessibility-focused UX patterns such as simplified navigation, readable typography, and non-intrusive feedback to reduce cognitive load for non-technical users",
     ],
   },
   {
@@ -32,9 +35,9 @@ export const EXPERIENCE = [
     date: "Dec 2023 - Present",
     url: "https://www.wipro.com/",
     description: [
-      "Delivering Level 1 production support for Texas Instruments Inc., ensuring uptime and stability across 20+ cross-functional teams",
-      "Streamlined incident resolution through systematic troubleshooting and root cause analysis, minimizing downtime impact",
-      "Partnered with engineering teams to document critical issues, contributing to more resilient and well-maintained production systems",
+      "Provide Level 1 support to 20+ cross-functional teams to maintain business-critical processes at Texas Instruments Inc. ",
+      "Investigate incidents impacting operational workflows and reduced downtime through structured troubleshooting",
+      "Strengthened troubleshooting and systems-thinking skills through exposure to production issues, monitoring workflows, and cross-team communication",
     ],
   },
   {

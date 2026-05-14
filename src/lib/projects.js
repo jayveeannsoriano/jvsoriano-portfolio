@@ -12,12 +12,12 @@
 import tiwrProject from "../assets/project preview images/TIWRProject.png"
 import rimorinProject from "../assets/project preview images/RimorinProject.png"
 import ffufProject from "../assets/project preview images/FFUFProjects.png"
-import webPortfolio from "../assets/project preview images/WebPortfolio.png"
+import webPortfolio from "../assets/project preview images/Portfolio.png"
 
 export const PROJECTS = [
     {
         name: 'The International Will Registry',
-        description: 'Built a secure, full-stack web platform for a legal services client that lets users register and retrieve the location of wills and estate documents. Translated complex legal workflows into clean, accessible UI using Next.js, Tailwind CSS, and shadcn/ui components. Integrated Supabase for authentication, real-time data, and secure document management. Led the project end-to-end: requirements gathering, Figma wireframes, implementation, and deployment to Vercel.',
+        description: 'Built a secure, full-stack web platform for a legal services client that lets users register and retrieve the location of wills and estate documents. Translated complex legal workflows into clean, accessible UI using Next.js, Tailwind CSS, and shadcn/ui components. Co-led the project end-to-end: requirements gathering, Figma wireframes, implementation, and deployment to Vercel.',
         url: 'https://theinternationalwillregistry.com',
         previewImage: tiwrProject,
         technologies: ['Next.js', 'Tailwind CSS', 'shadcn/ui', 'Supabase', 'Vercel', 'GitHub', 'Figma']
@@ -44,7 +44,7 @@ export const PROJECTS = [
     {
         name: 'Personal Web Portfolio',
         description: 'This site — built with React and Tailwind CSS, deployed via GitHub Pages. Designed and developed from scratch: layout decisions, component architecture, animation timing, and content hierarchy. Continuously iterated on as my skills and projects evolve.',
-        url: 'https://github.com/jayveeannsoriano/jvsoriano-portfolio',
+        githubUrl: 'https://github.com/jayveeannsoriano/jvsoriano-portfolio',
         previewImage: webPortfolio,
         technologies: ['ReactJS', 'Tailwind CSS', 'GitHub Pages']
     },

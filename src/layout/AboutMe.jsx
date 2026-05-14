@@ -20,15 +20,13 @@ const AboutMe = () => {
           <h1 className="font-bold text-center tracking-tighter text-sm md:text-lg md:text-left font-mono text-sky-400">
             const myNicknames = ['Jian', 'Jayvee', 'Jebeann'];
           </h1>
-          <p className="text-wrap text-gray-400 text-sm font-light md:text-base">
-            I'm a frontend developer with a background in application support engineering. In my day job at Wipro, I handle production incidents for Texas Instruments — which means I've learned to read systems under pressure, trace failures, and communicate clearly across teams. That operational lens has changed how I write code: I think about what breaks, what's unclear, and what the next person maintaining it will need.
+          <p className="text-wrap text-gray-400 text-sm font-light hover:text-white transition-colors duration-200 md:text-base">
+            I’m a frontend developer currently working in application support for Texas Instruments through Wipro, where I handle production incidents and operational workflows across cross-functional teams. Alongside that, I design and build user-focused web applications using Next.js, Tailwind CSS, and modern frontend tooling.</p>
+          <p className="text-wrap text-gray-400 text-sm font-light hover:text-white transition-colors duration-200 md:text-base">
+            Most recently, I’ve been building a legal services platform focused on accessibility, usability, and simplifying complex workflows for elderly users and individuals living abroad. I enjoy translating real-world processes into interfaces that feel intuitive, reliable, and easy to navigate.
           </p>
-          <p className="text-wrap text-gray-400 text-sm font-light md:text-base">
-            Alongside that, I design and build interfaces — currently for a legal services client using Next.js and Tailwind CSS. I've always been drawn to the craft of the UI: the kind of work where a well-placed transition or a thoughtful form layout genuinely changes how a user feels about a product. I started as "the UI person" in university group projects, and that instinct has only gotten more deliberate over time.
-          </p>
-          <p className="text-wrap text-gray-400 text-sm font-light md:text-base">
-            I care about building things that hold up — in production, under edge cases, and for the real humans using them. If you're looking for someone who can own a feature end-to-end, think beyond the happy path, and write UI that's as thoughtful as it is functional, let's talk.
-          </p>
+          <p className="text-wrap text-gray-400 text-sm font-light hover:text-white transition-colors duration-200 md:text-base">
+            I care about building products that hold up in production — not just visually, but functionally and operationally as well. My work is grounded in thoughtful UI design, maintainable frontend systems, and creating experiences that reduce friction for real users.          </p>
         </div>
       </div>
     </SectionContainer>

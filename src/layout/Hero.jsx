@@ -8,13 +8,14 @@ import "aos/dist/aos.css";
 const Hero = () => {
   return (
     <SectionContainer id="hello">
-      <div data-aos="fade-up" className="justify-center text-center my-16 md:flex-row md:my-36">
+      {/* data-aos="fade-up" */}
+      <div className="justify-center text-center pt-16 pb-4 md:my-24 md:flex-row">
         <h2 className="text-lg md:text-xl text-gray-300 mb-2">Hi, I'm Jayvee Ann Soriano</h2>
-        <h1 className="text-2xl md:text-7xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent m-10 p-4">
+        <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent my-6 md:my-10 p-4">
           Frontend Developer.<br />Thoughtful by Design.
         </h1>
-        <p className="text-sm md:text-base text-gray-400 max-w-xl mx-auto mb-4 px-4">
-          I build reliable, user-focused interfaces — and I bring the operational awareness of a support engineer to every line I ship.
+        <p className="text-sm md:text-base text-gray-400 max-w-xl mx-auto mb-6 px-4">
+          I build reliable, user-focused interfaces backed by real-world support and production experience.
         </p>
         <div className="flex justify-center mb-3">
           <div className="flex items-center px-4 py-2 text-sm rounded-full border border-green-500 bg-transparent" pill>

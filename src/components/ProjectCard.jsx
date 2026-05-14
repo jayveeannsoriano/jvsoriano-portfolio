@@ -33,7 +33,7 @@ const ProjectCard = ({
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2 bg-sky-500 text-white text-xs font-semibold rounded-lg hover:bg-sky-600 transition-colors duration-200"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-sky-500 text-white text-xs font-semibold rounded-full hover:bg-sky-600 transition-colors duration-200"
               >
                 <PiGlobe className="h-3.5 w-3.5" />
                 Live Site ↗
@@ -44,7 +44,7 @@ const ProjectCard = ({
                 href={githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2 bg-gray-800 text-white text-xs font-semibold rounded-lg hover:bg-gray-700 transition-colors duration-200"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-gray-800 text-white text-xs font-semibold rounded-full hover:bg-gray-700 transition-colors duration-200"
               >
                 <FiGithub className="h-3.5 w-3.5" />
                 GitHub ↗
@@ -89,7 +89,7 @@ const ProjectCard = ({
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-medium px-4 py-2 rounded-lg border border-sky-500/50 text-sky-400 hover:bg-sky-400 hover:text-white ransition-all duration-200"
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-4 py-2 rounded-full border border-sky-500/50 text-sky-400 hover:bg-sky-400 hover:text-white ransition-all duration-200"
               >
                 <PiGlobe className="h-3.5 w-3.5" />
                 Live Site <span className="opacity-60">↗</span>
@@ -100,7 +100,7 @@ const ProjectCard = ({
                 href={githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-medium px-4 py-2 rounded-lg border border-gray-700 text-gray-300 hover:border-gray-500 hover:text-white transition-all hover:bg-gray-700  duration-200"
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-4 py-2 rounded-full border border-gray-700 text-gray-300 hover:border-gray-500 hover:text-white transition-all hover:bg-gray-700  duration-200"
               >
                 <FiGithub className="h-3.5 w-3.5" />
                 GitHub <span className="opacity-60">↗</span>
