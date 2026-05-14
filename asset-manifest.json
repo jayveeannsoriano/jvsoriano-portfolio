@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jvsoriano-portfolio/static/css/main.cb992997.css",
-    "main.js": "/jvsoriano-portfolio/static/js/main.1884428b.js",
+    "main.css": "/jvsoriano-portfolio/static/css/main.63a1d5a3.css",
+    "main.js": "/jvsoriano-portfolio/static/js/main.0cb1d026.js",
     "static/js/787.8ffafabc.chunk.js": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js",
     "static/media/profile.jpg": "/jvsoriano-portfolio/static/media/profile.39164cb8280d72092e97.jpg",
     "static/media/TIWRProject.png": "/jvsoriano-portfolio/static/media/TIWRProject.2a206b087a6df11003f9.png",
     "static/media/FFUFProjects.png": "/jvsoriano-portfolio/static/media/FFUFProjects.f0adb15bf654ac2de613.png",
-    "static/media/WebPortfolio.png": "/jvsoriano-portfolio/static/media/WebPortfolio.2dad6136f802307d0bca.png",
+    "static/media/Portfolio.png": "/jvsoriano-portfolio/static/media/Portfolio.490d436878ada253ac1d.png",
     "static/media/RimorinProject.png": "/jvsoriano-portfolio/static/media/RimorinProject.d268251443822b0702ea.png",
     "static/media/freelance-logo.png": "/jvsoriano-portfolio/static/media/freelance-logo.e61cdd5c02e18c2b26e5.png",
     "static/media/wipro-logo.png": "/jvsoriano-portfolio/static/media/wipro-logo.ce99e357488e7104586e.png",
     "index.html": "/jvsoriano-portfolio/index.html",
-    "main.cb992997.css.map": "/jvsoriano-portfolio/static/css/main.cb992997.css.map",
-    "main.1884428b.js.map": "/jvsoriano-portfolio/static/js/main.1884428b.js.map",
+    "main.63a1d5a3.css.map": "/jvsoriano-portfolio/static/css/main.63a1d5a3.css.map",
+    "main.0cb1d026.js.map": "/jvsoriano-portfolio/static/js/main.0cb1d026.js.map",
     "787.8ffafabc.chunk.js.map": "/jvsoriano-portfolio/static/js/787.8ffafabc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb992997.css",
-    "static/js/main.1884428b.js"
+    "static/css/main.63a1d5a3.css",
+    "static/js/main.0cb1d026.js"
   ]
 }
