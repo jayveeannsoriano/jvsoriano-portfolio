@@ -2,7 +2,7 @@
 
 A personal portfolio built using **ReactJS**, styled with **Tailwind CSS** and **Flowbite React** components, and deployed via **GitHub Pages**
 
-![preview]()
+![preview](https://raw.githubusercontent.com/jayveeannsoriano/jvsoriano-portfolio/master/thumbnail.png)
 
 ## Tech Stack
 
